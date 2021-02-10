@@ -51,6 +51,10 @@ export default {
 @import "https://cdn.byu.edu/theme-fonts/1.x.x/ringside/fonts.css";
 @import "https://cdn.byu.edu/theme-fonts/1.x.x/public-sans/fonts.css";
 
+* {
+    box-sizing: border-box;
+}
+
 a:link, a:visited {
     text-decoration: none;
 }
@@ -73,8 +77,8 @@ a:link, a:visited {
 }
 
 .link-icon {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     padding: 5px;
 
     flex: 0 0 40px;
@@ -111,8 +115,8 @@ a:link, a:visited {
 }
 
 .pin-icon {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
 }
 </style>

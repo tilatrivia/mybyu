@@ -9,8 +9,7 @@ import links from './links.js'
 
 let data = {
   user: "Demo Student",
-  links: new Map(),
-  pinned: []
+  links: new Map()
 }
 
 links.forEach(link => {

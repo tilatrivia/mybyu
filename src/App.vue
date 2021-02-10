@@ -6,17 +6,18 @@
       <p class="log-out">LOG OUT</p>
     </div>
     <div id="body">
-      <div id="pinned-links" class="box">
+      <div id="pinned-links" class="box" :style="'grid-row: span ' + pinnedSpan">
         <p>PINNED LINKS</p>
-        <img v-if="$root.$data.pinned.length == 0" class="large-pin-icon" src="./assets/pin-open-angled.svg"/>
+        <img v-if="this.pinned.length == 0" class="large-pin-icon" src="./assets/pin-open-angled.svg"/>
+        <PinLink v-for="link_id in pinned" v-bind:key="link_id" :large="false"/>
       </div>
       <div id="search" class="box">
         <p>SEARCH</p>
       </div>
       <div id="my-classes" class="box">
         <p>MY CLASSES</p>
-        <PinLink link_id="y-time" :large="false" :pinned="false"/>
-        <PinLink link_id="learning-suite" :large="false" :pinned="false"/>
+        <PinLink key="y-time" :large="false"/>
+        <PinLink key="learning-suite" :large="false"/>
       </div>
       <div id="employment" class="box">
         <p>EMPLOYMENT</p>
@@ -56,6 +57,34 @@ export default {
   name: 'App',
   components: {
     PinLink
+  },
+  data() {
+    return {
+      pinned: []
+    }
+  },
+  methods: {
+    pinItem(id) {
+      if (this.pinned.indexOf(id) === -1) {
+        this.pinned.push(id)
+      }
+    },
+    unpinItem(id) {
+      let index = this.pinned.indexOf(id)
+      if (index !== -1) {
+        this.pinned.splice(index, 1)
+      }
+      
+    }
+  },
+  computed: {
+    pinnedSpan() {
+      if (this.pinned.length === 0) {
+        return 4;
+      } else {
+        return this.pinned.length + 1;
+      }
+    }
   }
 }
 </script>
@@ -139,10 +168,9 @@ body {
 
 #pinned-links {
   grid-column: 1;
-  grid-row: span 4;
 }
 
-#pinned-links img {
+#pinned-links > img {
   display: block;
   width: 128px;
   height: 128px;
@@ -152,7 +180,7 @@ body {
 
 #search {
   grid-column: 2 / 4;
-  grid-row: span 3;
+  grid-row: span 2;
 }
 
 #my-classes {

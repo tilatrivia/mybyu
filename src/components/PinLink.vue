@@ -5,8 +5,11 @@
             <img class="link-icon" :src="require('../assets/icons/' + pinLink.icon)"/>
             <p class="link-name">{{ pinLink.name }}</p>
         </a>
-        <a class="pin-button" @click="console.log(pinLink)" :title="'Pin ' + pinLink.name">
+        <a v-if="!pinned" class="pin-button" @click="pin()" :title="'Pin ' + pinLink.name">
             <img class="pin-icon" src="../assets/pin-open-angled.svg"/>
+        </a>
+        <a v-else class="pin-button" @click="unpin()" :title="'Unpin ' + pinLink.name">
+            <img class="pin-icon" src="../assets/pin-closed-vertical.svg"/>
         </a>
     </div>
 </template>
@@ -19,15 +22,27 @@ export default {
     props: {
         link_id: String,
         large: Boolean,
-        pinned: Boolean,
     },
     data() {
         return {
-            pinLink: PinLink
+            pinLink: PinLink,
+        }
+    },
+    computed: {
+        pinned() {
+            return this.$parent.pinned.indexOf(this.$vnode.key) !== -1;
+        }
+    },
+    methods: {
+        pin() {
+            this.$parent.pinItem(this.$vnode.key)
+        },
+        unpin() {
+            this.$parent.unpinItem(this.$vnode.key)
         }
     },
     created() {
-        this.pinLink = this.$root.$data.links[this.link_id];
+        this.pinLink = this.$root.$data.links[this.$vnode.key];
     }
 }
 </script>

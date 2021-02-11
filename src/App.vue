@@ -15,7 +15,10 @@
       <div id="search" class="box">
         <p>SEARCH</p>
         <div class="search-box" v-bind:class="{ activebox: searchTerm }">
-          <input type="text" v-model="searchTerm"/>
+          <div class="text-field">
+            <input type="text" v-model="searchTerm"/>
+            <button @click="searchTerm = ''" v-if="searchTerm"><img src="./assets/x.svg"/></button>
+          </div>
           <div>
             <PinLink v-for="link_id in searchResults" v-bind:key="link_id"/>
           </div>
@@ -283,6 +286,7 @@ hr {
 #search {
   grid-column: 2 / 4;
   grid-row: span 3;
+  height: 130px;
 }
 
 .search-box {
@@ -294,7 +298,7 @@ hr {
   box-shadow: 0 5px 20px 0 rgb(0 0 0 / 20%);
 }
 
-.search-box > input {
+.text-field > input {
   position: relative;
   width: 100%;
   height: 50px;
@@ -309,14 +313,34 @@ hr {
   background-color: #f4f4f4;
 }
 
-.search-box > input:hover {
+.text-field > input:hover {
   background-color: #eeeeee;
 }
 
-.search-box > input:focus {
+.text-field > input:focus {
   outline: none;
   background-color: #eeeeee;
 }
+
+.text-field > button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+
+  border: none;
+  padding: 10px;
+  background: none;
+}
+
+.text-field > button > img {
+  width: 30px;
+}
+
+.text-field > button:hover {
+  background-color: #eeeeee;
+}
+
 
 .search-box > div {
   position: absolute;

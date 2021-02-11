@@ -9,11 +9,12 @@ import links from './links.js'
 
 let data = {
   user: "Demo Student",
-  links: new Map()
+  links: links,
+  linkMap: new Map()
 }
 
-links.forEach(link => {
-  data.links[link.id] = new PinLink(link.name, link.address, link.icon, link.heading, link.tags)
+data.links.forEach(link => {
+  data.linkMap[link.id] = new PinLink(link.name, link.address, link.icon, link.heading, link.tags)
 })
 
 new Vue({

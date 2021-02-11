@@ -1,5 +1,5 @@
 <template>
-    <div class="link">
+    <div class="link" ref="container">
         <a class="link-button" :href="pinLink.address" :title="pinLink.name" target="_blank">
             <!-- <img class="link-icon" :src="'../assets/icons/' + link_id + '.svg'"/> -->
             <img class="link-icon" :src="require('../assets/icons/' + pinLink.icon)"/>
@@ -21,11 +21,11 @@ export default {
     name: 'PinLink',
     props: {
         link_id: String,
-        large: Boolean,
     },
     data() {
         return {
             pinLink: PinLink,
+            large: false
         }
     },
     computed: {
@@ -42,7 +42,10 @@ export default {
         }
     },
     created() {
-        this.pinLink = this.$root.$data.links[this.$vnode.key];
+        this.pinLink = this.$root.$data.linkMap[this.$vnode.key];
+    },
+    mounted() {
+        this.large = this.$refs.container.clientWidth > 500;
     }
 }
 </script>

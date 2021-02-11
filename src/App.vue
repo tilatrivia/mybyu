@@ -9,102 +9,107 @@
       <div id="pinned-links" class="box" :style="'grid-row: span ' + pinnedSpan">
         <p>PINNED LINKS</p>
         <img v-if="this.pinned.length == 0" class="large-pin-icon" src="./assets/pin-open-angled.svg"/>
-        <PinLink v-for="link_id in pinned" v-bind:key="link_id" :large="false"/>
+        <PinLink v-for="link_id in pinned" v-bind:key="link_id"/>
       </div>
 
       <div id="search" class="box">
         <p>SEARCH</p>
-        <input type="text"/>
+        <div class="search-box" v-bind:class="{ activebox: searchTerm }">
+          <input type="text" v-model="searchTerm"/>
+          <div>
+            <PinLink v-for="link_id in searchResults" v-bind:key="link_id"/>
+          </div>
+        </div>
       </div>
 
       <div id="my-classes" class="box">
         <p>MY CLASSES</p>
-        <PinLink key="mymap" :large="false"/>
-        <PinLink key="plan-courses" :large="false"/>
-        <PinLink key="course-catalog" :large="false"/>
-        <PinLink key="class-schedule" :large="false"/>
-        <PinLink key="register-for-classes" :large="false"/>
+        <PinLink key="mymap"/>
+        <PinLink key="plan-courses"/>
+        <PinLink key="course-catalog"/>
+        <PinLink key="class-schedule"/>
+        <PinLink key="register-for-classes"/>
         <hr>
-        <PinLink key="book-list" :large="false"/>
+        <PinLink key="book-list"/>
         <hr>
-        <PinLink key="learning-suite" :large="false"/>
-        <PinLink key="canvas" :large="false"/>
+        <PinLink key="learning-suite"/>
+        <PinLink key="canvas"/>
         <hr>
-        <PinLink key="testing-center" :large="false"/>
-        <PinLink key="finals-schedule" :large="false"/>
+        <PinLink key="testing-center"/>
+        <PinLink key="finals-schedule"/>
       </div>
 
       <div id="employment" class="box">
         <p>EMPLOYMENT</p>
-        <PinLink key="y-time" :large="false"/>
-        <PinLink key="view-paycheck" :large="false"/>
-        <PinLink key="direct-deposit" :large="false"/>
-        <PinLink key="student-employment" :large="false"/>
+        <PinLink key="y-time"/>
+        <PinLink key="view-paycheck"/>
+        <PinLink key="direct-deposit"/>
+        <PinLink key="student-employment"/>
       </div>
 
       <div id="academics" class="box">
         <p>ACADEMICS</p>
-        <PinLink key="apply-for-graduation" :large="false"/>
-        <PinLink key="ecclesiastical-endorsement" :large="false"/>
-        <PinLink key="enrollment-services" :large="false"/>
+        <PinLink key="apply-for-graduation"/>
+        <PinLink key="ecclesiastical-endorsement"/>
+        <PinLink key="enrollment-services"/>
         <hr>
-        <PinLink key="financial-center" :large="false"/>
-        <PinLink key="ymessage" :large="false"/>
+        <PinLink key="financial-center"/>
+        <PinLink key="ymessage"/>
         <hr>
-        <PinLink key="scholarship-application" :large="false"/>
-        <PinLink key="scholarships" :large="false"/>
+        <PinLink key="scholarship-application"/>
+        <PinLink key="scholarships"/>
         <hr>
-        <PinLink key="learn-anywhere" :large="false"/>
-        <PinLink key="teach-anywhere" :large="false"/>
+        <PinLink key="learn-anywhere"/>
+        <PinLink key="teach-anywhere"/>
         <hr>
-        <PinLink key="library" :large="false"/>
+        <PinLink key="library"/>
       </div>
       
       <div id="student-life" class="box">
         <p>STUDENT LIFE</p>
-        <PinLink key="on-campus-housing" :large="false"/>
-        <PinLink key="off-campus-housing" :large="false"/>
-        <PinLink key="campus-shuttle" :large="false"/>
-        <PinLink key="parking" :large="false"/>
+        <PinLink key="on-campus-housing"/>
+        <PinLink key="off-campus-housing"/>
+        <PinLink key="campus-shuttle"/>
+        <PinLink key="parking"/>
         <hr>
-        <PinLink key="cougar-cash" :large="false"/>
-        <PinLink key="dinning-services" :large="false"/>
-        <PinLink key="dinning-account" :large="false"/>
+        <PinLink key="cougar-cash"/>
+        <PinLink key="dinning-services"/>
+        <PinLink key="dinning-account"/>
         <hr>
-        <PinLink key="student-health" :large="false"/>
+        <PinLink key="student-health"/>
         <hr>
-        <PinLink key="intramurals" :large="false"/>
-        <PinLink key="roc-pass" :large="false"/>
-        <PinLink key="byusa" :large="false"/>
+        <PinLink key="intramurals"/>
+        <PinLink key="roc-pass"/>
+        <PinLink key="byusa"/>
       </div>
 
       <div id="campus-resources" class="box">
         <p>CAMPUS RESOURCES</p>
-        <PinLink key="campus-directory" :large="false"/>
-        <PinLink key="campus-map" :large="false"/>
+        <PinLink key="campus-directory"/>
+        <PinLink key="campus-map"/>
         <hr>
-        <PinLink key="calendars" :large="false"/>
-        <PinLink key="byu-speeches" :large="false"/>
-        <PinLink key="university-policies" :large="false"/>
+        <PinLink key="calendars"/>
+        <PinLink key="byu-speeches"/>
+        <PinLink key="university-policies"/>
         <hr>
-        <PinLink key="counseling-services" :large="false"/>
-        <PinLink key="career-center" :large="false"/>
+        <PinLink key="counseling-services"/>
+        <PinLink key="career-center"/>
       </div>
 
       <div id="technology" class="box">
         <p>TECHNOLOGY</p>
-        <PinLink key="get-software" :large="false"/>
-        <PinLink key="oit" :large="false"/>
-        <PinLink key="lab-computers" :large="false"/>
-        <PinLink key="printers" :large="false"/>
+        <PinLink key="get-software"/>
+        <PinLink key="oit"/>
+        <PinLink key="lab-computers"/>
+        <PinLink key="printers"/>
       </div>
 
       <div id="university-account" class="box">
         <p>ACCOUNT</p>
-        <PinLink key="account-management" :large="false"/>
-        <PinLink key="account-security" :large="false"/>
-        <PinLink key="guest-access" :large="false"/>
-        <PinLink key="personal-information" :large="false"/>
+        <PinLink key="account-management"/>
+        <PinLink key="account-security"/>
+        <PinLink key="guest-access"/>
+        <PinLink key="personal-information"/>
       </div>
     </div>
     <div id="footer">
@@ -123,19 +128,22 @@ export default {
   },
   data() {
     return {
-      pinned: []
+      pinned: [],
+      searchTerm: ""
     }
   },
   methods: {
     pinItem(id) {
       if (this.pinned.indexOf(id) === -1) {
         this.pinned.push(id)
+        localStorage.pinned = JSON.stringify(this.pinned)
       }
     },
     unpinItem(id) {
       let index = this.pinned.indexOf(id)
       if (index !== -1) {
         this.pinned.splice(index, 1)
+        localStorage.pinned = JSON.stringify(this.pinned)
       }
       
     }
@@ -147,6 +155,24 @@ export default {
       } else {
         return this.pinned.length + 2;
       }
+    },
+    searchResults() {
+      let results = [];
+      if (this.searchTerm) {
+        let searchTermLower = this.searchTerm.toLowerCase();
+        this.$root.$data.links.forEach((link) => {
+          if (link.name.toLowerCase().includes(searchTermLower) ||
+            link.heading.toLowerCase().includes(searchTermLower) ||
+            link.tags.includes(searchTermLower))
+            results.push(link.id);
+        }, this);
+      }
+      return results;
+    }
+  },
+  mounted() {
+    if (localStorage.pinned) {
+      this.pinned = JSON.parse(localStorage.pinned);
     }
   }
 }
@@ -259,12 +285,23 @@ hr {
   grid-row: span 3;
 }
 
-#search > input {
+.search-box {
+  position: relative;
+  transition: box-shadow 0.1s;
+}
+
+.search-box:focus-within, .activebox {
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 20%);
+}
+
+.search-box > input {
+  position: relative;
   width: 100%;
   height: 50px;
   margin: 0;
   border: none;
   padding: 5px;
+  z-index: 1;
 
   font-family: 'HCo Ringside Narrow SSm', sans-serif;
   font-size: 14pt;
@@ -272,13 +309,30 @@ hr {
   background-color: #f4f4f4;
 }
 
-#search > input:hover {
+.search-box > input:hover {
   background-color: #eeeeee;
 }
 
-#search > input:focus {
+.search-box > input:focus {
   outline: none;
   background-color: #eeeeee;
+}
+
+.search-box > div {
+  position: absolute;
+  max-height: 285px;
+  width: 100%;
+
+  background-color: #f9f9f9;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 20%);
+
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.search-box > div::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }
 
 #my-classes {

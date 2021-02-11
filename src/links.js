@@ -181,7 +181,7 @@ export default [
         name: "Get Software",
         address: "http://software.byu.edu/",
         heading: "Technology",
-        tags: "printers adobe download"
+        tags: "adobe download"
     },
     {
         id: "guest-access",
@@ -298,7 +298,7 @@ export default [
     {
         id: "printers",
         icon: "learning-suite.svg",
-        name: "Technology",
+        name: "Printers",
         address: "https://lib.byu.edu/services/printers/",
         heading: "Technology",
         tags: "copy copier color black and white scanner"
@@ -325,7 +325,7 @@ export default [
         name: "Scholarship Appl.",
         address: "https://sa.byu.edu/psp/ps/EMPLOYEE/HRMS/c/Y_SLR_STUDENT.Y_SLR_STU_APP_LAND.GBL",
         heading: "Academics",
-        tags: "tuition financial aid fasfa merit scholarships need based scholarships need-based scholarships"
+        tags: "apply application tuition financial aid fasfa merit scholarships need based scholarships need-based scholarships"
     },
     {
         id: "scholarships",

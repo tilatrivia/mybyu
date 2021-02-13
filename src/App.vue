@@ -19,7 +19,7 @@
             <input type="text" v-model="searchTerm"/>
             <button @click="searchTerm = ''" v-if="searchTerm"><img src="./assets/x.svg"/></button>
           </div>
-          <div>
+          <div class="search-results">
             <PinLink v-for="link_id in searchResults" v-bind:key="link_id"/>
           </div>
         </div>
@@ -342,7 +342,7 @@ hr {
 }
 
 
-.search-box > div {
+.search-results {
   position: absolute;
   max-height: 285px;
   width: 100%;

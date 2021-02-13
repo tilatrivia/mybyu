@@ -280,7 +280,7 @@ hr {
   width: 150px;
   height: 150px;
   margin: 0 auto;
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 #search {

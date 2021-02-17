@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 2 35.981 L 126 35.981 C 127.105 35.981 128 36.876 128 37.981 L 128 90.019 C 128 91.124 127.105 92.019 126 92.019 L 2 92.019 C 0.895 92.019 0 91.124 0 90.019 L 0 37.981 C 0 36.876 0.895 35.981 2 35.981 Z M 4 88 L 124 88 L 124 40 L 4 40 Z" style="fill: rgb(0, 98, 184);"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="84" y1="48" x2="104" y2="48"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="14" y1="60" x2="90" y2="60"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="14" y1="80" x2="58" y2="80"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="70" y1="80" x2="114" y2="80"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="98" y1="60" x2="114" y2="60"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="14" y1="68" x2="114" y2="68"/>
+</svg>

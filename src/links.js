@@ -9,7 +9,7 @@ export default [
     },
     {
         id: "account-security",
-        icon: "learning-suite.svg",
+        icon: "account-security.svg",
         name: "Account Security",
         address: "https://gamma.byu.edu/ry/ae/prod/person/cgi/changePassword.cgi",
         heading: "University Account",
@@ -17,7 +17,7 @@ export default [
     },
     {
         id: "apply-for-graduation",
-        icon: "learning-suite.svg",
+        icon: "apply-for-graduation.svg",
         name: "Apply for Graduation",
         address: "https://y.byu.edu/ry/ae/prod/acad_plan/cgi/stdGraduationApp.cgi",
         heading: "Academics",
@@ -81,7 +81,7 @@ export default [
     },
     {
         id: "canvas",
-        icon: "learning-suite.svg",
+        icon: "canvas.svg",
         name: "Canvas",
         address: "https://byu.instructure.com",
         heading: "My Classes",
@@ -105,7 +105,7 @@ export default [
     },
     {
         id: "cougar-cash",
-        icon: "learning-suite.svg",
+        icon: "cougar-cash.svg",
         name: "Cougar Cash",
         address: "https://sa.byu.edu/psc/ps/EMPLOYEE/HRMS/c/Y_MY_FINANCIAL_CENTER.Y_SIG_HOME_FL.GBL?Page=Y_SIG_HOME_FL&EMPLID=191786212",
         heading: "Student Life",
@@ -241,7 +241,7 @@ export default [
     },
     {
         id: "mymap",
-        icon: "learning-suite.svg",
+        icon: "my-map.svg",
         name: "MyMap",
         address: "https://y.byu.edu/ry/ae/prod/mymap/cgi/summary.cgi",
         heading: "My Classes",
@@ -377,7 +377,7 @@ export default [
     },
     {
         id: "view-paycheck",
-        icon: "learning-suite.svg",
+        icon: "view-paycheck.svg",
         name: "View Paycheck",
         address: "https://hrms.byu.edu/psp/ps/EMPLOYEE/HRMS/c/ROLE_EMPLOYEE.PY_IC_PAY_INQ.GBL?NAVSTACK=Clear",
         heading: "Employment",
@@ -385,7 +385,7 @@ export default [
     },
     {
         id: "ymessage",
-        icon: "learning-suite.svg",
+        icon: "y-message.svg",
         name: "Ymessage",
         address: "http://ymessage.byu.edu/",
         heading: "Academics",

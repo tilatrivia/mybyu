@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px; fill: none;" d="M 18 67 H 110 A 16 16 0 0 1 126 83 V 107 H 2 V 83 A 16 16 0 0 1 18 67 Z" bx:shape="rect 2 67 124 40 16 16 0 0 1@3d585437"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="24" y1="97" x2="104" y2="97"/>
+  <rect style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px; fill: none;" x="24" y="21" width="80" height="46"/>
+  <rect style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px; fill: none;" x="96" y="77" width="20" height="10"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="36" y1="35" x2="92" y2="35"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="36" y1="43" x2="92" y2="43"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="36" y1="51" x2="92" y2="51"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="36" y1="59" x2="92" y2="59"/>
+  <circle style="fill: rgb(0, 98, 184);" cx="16" cy="81" r="4"/>
+  <circle style="fill: rgb(0, 98, 184);" cx="28" cy="81" r="4"/>
+</svg>

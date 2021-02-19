@@ -185,7 +185,7 @@ export default [
     },
     {
         id: "get-software",
-        icon: "default.svg",
+        icon: "get-software.svg",
         name: "Get Software",
         address: "http://software.byu.edu/",
         heading: "Technology",
@@ -193,7 +193,7 @@ export default [
     },
     {
         id: "guest-access",
-        icon: "default.svg",
+        icon: "guest-access.svg",
         name: "Guest Access",
         address: "https://guestaccess.byu.edu/",
         heading: "University Account",
@@ -209,7 +209,7 @@ export default [
     },
     {
         id: "lab-computers",
-        icon: "default.svg",
+        icon: "lab-computers.svg",
         name: "Lab Computers",
         address: "https://lib.byu.edu/services/public-computers/",
         heading: "Technology",
@@ -297,7 +297,7 @@ export default [
     },
     {
         id: "printers",
-        icon: "default.svg",
+        icon: "printers.svg",
         name: "Printers",
         address: "https://lib.byu.edu/services/printers/",
         heading: "Technology",

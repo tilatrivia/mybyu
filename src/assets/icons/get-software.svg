@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect x="2" y="2" width="124" height="124" style="stroke: rgb(0, 98, 184); fill: none; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line style="stroke-width: 4px; stroke: rgb(0, 98, 184);" x1="2" y1="30" x2="126" y2="30"/>
+  <line style="stroke-width: 4px; stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round;" x1="106" y1="22" x2="118" y2="10"/>
+  <line style="stroke-width: 4px; stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round;" x1="106" y1="10" x2="118" y2="22"/>
+  <rect x="86" y="10" width="12" height="12" style="stroke: rgb(0, 98, 184); fill: none; stroke-linejoin: round; stroke-width: 4px;"/>
+  <line style="stroke-width: 4px; stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round;" x1="66" y1="16" x2="78" y2="16"/>
+  <path d="M 50.733 74.909 H 82.733 L 82.733 58.909 L 114.733 90.909 L 82.733 122.909 L 82.733 106.909 H 50.733 V 74.909 Z" style="fill: none; stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px;" transform="matrix(0, 1, -1, 0, 154.909001, -4.043942)" bx:shape="arrow 50.733 58.909 64 64 32 32 0 1@a8fe6b81"/>
+  <path d="M 8 8 L 14.137 8 L 14.137 11.506 L 13.023 11.506 L 14.574 14.194 L 16.126 11.506 L 15.014 11.506 L 15.014 8 L 21.15 8 L 21.15 11.506 L 19.922 11.506 L 16.328 17.73 L 16.328 20.494 L 17.643 20.494 L 17.643 24 L 11.506 24 L 11.506 20.494 L 12.822 20.494 L 12.822 17.734 L 9.226 11.506 L 8 11.506 Z" style="fill: rgb(0, 98, 184);"/>
+</svg>

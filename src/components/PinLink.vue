@@ -128,13 +128,14 @@ a:link, a:visited {
     flex: 0 0;
 
     cursor: pointer;
+    visibility: hidden;
 }
 
-@media (any-hover: hover) {
+/* @media (hover: hover) {
     .link > .pin-button {
         visibility: hidden;
     }
-}
+} */
 
 .pin-button:hover {
     background-color: #eeeeee;

@@ -128,7 +128,12 @@ a:link, a:visited {
     flex: 0 0;
 
     cursor: pointer;
-    visibility: hidden;
+}
+
+@media (any-hover: hover) {
+    .link > .pin-button {
+        visibility: hidden;
+    }
 }
 
 .pin-button:hover {
@@ -137,12 +142,6 @@ a:link, a:visited {
 
 .link:hover > .pin-button {
     visibility: visible;
-}
-
-@media (hover: none) {
-    .link > .pin-button {
-    visibility: visible;
-}
 }
 
 .pin-icon {

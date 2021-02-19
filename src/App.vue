@@ -110,7 +110,7 @@
       <div id="university-account" class="box">
         <p>ACCOUNT</p>
         <PinLink key="account-management"/>
-        <PinLink key="account-security"/>
+        <PinLink key="account-recovery"/>
         <PinLink key="guest-access"/>
         <PinLink key="personal-information"/>
       </div>

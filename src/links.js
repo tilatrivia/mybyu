@@ -8,12 +8,12 @@ export default [
         tags: "settings"
     },
     {
-        id: "account-security",
-        icon: "account-security.svg",
-        name: "Account Security",
-        address: "https://gamma.byu.edu/ry/ae/prod/person/cgi/changePassword.cgi",
+        id: "account-recovery",
+        icon: "account-recovery.svg",
+        name: "Account Recovery",
+        address: "https://accountrecovery.byu.edu/",
         heading: "University Account",
-        tags: "settings password questions"
+        tags: "settings forgot password"
     },
     {
         id: "apply-for-graduation",

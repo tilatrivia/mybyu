@@ -143,6 +143,12 @@ a:link, a:visited {
     visibility: visible;
 }
 
+@media (hover: none) {
+    .link > .pin-button {
+    visibility: visible;
+}
+}
+
 .pin-icon {
     width: 50px;
     height: 50px;

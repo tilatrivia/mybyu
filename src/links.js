@@ -128,17 +128,17 @@ export default [
         tags: "classes majors minors degrees requirements"
     },
     {
-        id: "dinning-account",
-        icon: "dinning-account.svg",
-        name: "Dinning Account",
+        id: "dining-account",
+        icon: "dining-account.svg",
+        name: "Dining Account",
         address: "https://housing.byu.edu/secure/services/dining/default.aspx",
         heading: "Student Life",
         tags: "meal plan balance housing"
     },
     {
-        id: "dinning-services",
-        icon: "dinning-services.svg",
-        name: "Dinning Services",
+        id: "dining-services",
+        icon: "dining-services.svg",
+        name: "Dining Services",
         address: "https://dining.byu.edu/",
         heading: "Student Life",
         tags: "food locations restaurants catering vending campus floral meal plans cougareat"

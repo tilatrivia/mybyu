@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 64 21 C 53.57 21 44.915 13.396 43.279 3.429 C 49.778 1.206 56.748 0 64 0 C 71.252 0 78.222 1.206 84.721 3.429 C 83.085 13.396 74.43 21 64 21 Z" style="fill: rgb(0, 98, 184);"/>
-  <path d="M 107 64 C 107 53.57 114.604 44.915 124.571 43.279 C 126.794 49.778 128 56.748 128 64 C 128 71.252 126.794 78.222 124.571 84.721 C 114.604 83.085 107 74.43 107 64 Z" style="fill: rgb(0, 98, 184);"/>
-  <path d="M 64 107 C 74.43 107 83.085 114.604 84.721 124.571 C 78.222 126.794 71.252 128 64 128 C 56.748 128 49.778 126.794 43.279 124.571 C 44.915 114.604 53.57 107 64 107 Z" style="fill: rgb(0, 98, 184);"/>
-  <path d="M 21 64 C 21 74.43 13.396 83.085 3.429 84.721 C 1.206 78.222 0 71.252 0 64 C 0 56.748 1.206 49.778 3.429 43.279 C 13.396 44.915 21 53.57 21 64 Z" style="fill: rgb(0, 98, 184);"/>
-  <path d="M 33.549 33.549 C 26.189 40.909 14.726 41.664 6.525 35.814 C 12.769 23.105 23.105 12.769 35.814 6.525 C 41.664 14.726 40.909 26.189 33.549 33.549 Z" style="fill: rgb(0, 98, 184);"/>
-  <path d="M 94.451 33.549 C 87.091 26.189 86.336 14.726 92.186 6.525 C 104.895 12.769 115.231 23.105 121.475 35.814 C 113.274 41.664 101.811 40.909 94.451 33.549 Z" style="fill: rgb(0, 98, 184);"/>
-  <path d="M 94.451 94.451 C 101.811 87.091 113.274 86.336 121.475 92.186 C 115.231 104.895 104.895 115.231 92.186 121.475 C 86.336 113.274 87.091 101.811 94.451 94.451 Z" style="fill: rgb(0, 98, 184);"/>
-  <path d="M 33.549 94.451 C 40.909 101.811 41.664 113.274 35.814 121.475 C 23.105 115.231 12.769 104.895 6.525 92.186 C 14.726 86.336 26.189 87.091 33.549 94.451 Z" style="fill: rgb(0, 98, 184);"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="33" r="6" cy="64"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="95" r="6" cy="64"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="64" r="6" cy="33"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="42.1" r="6" cy="42.1"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="85.9" r="6" cy="42.1"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="85.9" r="6" cy="85.9"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="64" r="6" cy="95"/>
-  <circle style="fill: rgb(0, 98, 184);" cx="42.1" r="6" cy="85.9"/>
+<svg viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 64 22.344 C 53.896 22.344 45.511 14.977 43.927 5.322 C 50.222 3.168 56.975 2 64 2 C 71.025 2 77.778 3.168 84.073 5.322 C 82.489 14.977 74.104 22.344 64 22.344 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 105.656 64 C 105.656 53.896 113.023 45.511 122.678 43.927 C 124.832 50.222 126 56.975 126 64 C 126 71.025 124.832 77.778 122.678 84.073 C 113.023 82.489 105.656 74.104 105.656 64 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 64 105.656 C 74.104 105.656 82.489 113.023 84.073 122.678 C 77.778 124.832 71.025 126 64 126 C 56.975 126 50.222 124.832 43.927 122.678 C 45.511 113.023 53.896 105.656 64 105.656 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 22.344 64 C 22.344 74.104 14.977 82.489 5.322 84.073 C 3.168 77.778 2 71.025 2 64 C 2 56.975 3.168 50.222 5.322 43.927 C 14.977 45.511 22.344 53.896 22.344 64 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 34.501 34.501 C 27.371 41.631 16.266 42.362 8.321 36.695 C 14.37 24.383 24.383 14.37 36.695 8.321 C 42.362 16.266 41.631 27.371 34.501 34.501 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 93.499 34.501 C 86.369 27.371 85.638 16.266 91.305 8.321 C 103.617 14.37 113.63 24.383 119.679 36.695 C 111.734 42.362 100.629 41.631 93.499 34.501 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 93.499 93.499 C 100.629 86.369 111.734 85.638 119.679 91.305 C 113.63 103.617 103.617 113.63 91.305 119.679 C 85.638 111.734 86.369 100.629 93.499 93.499 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 34.501 93.499 C 41.631 100.629 42.362 111.734 36.695 119.679 C 24.383 113.63 14.37 103.617 8.321 91.305 C 16.266 85.638 27.371 86.369 34.501 93.499 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="33.969" r="5.813" cy="64"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="94.031" r="5.813" cy="64"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="64" r="5.813" cy="33.969"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="42.784" r="5.813" cy="42.784"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="85.216" r="5.813" cy="42.784"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="85.216" r="5.813" cy="85.216"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="64" r="5.813" cy="94.031"/>
+  <circle style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;" cx="42.784" r="5.813" cy="85.216"/>
 </svg>

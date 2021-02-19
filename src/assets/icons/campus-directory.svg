@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect x="32" y="14" width="86" height="112" style="fill: none; stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="M 10 2 C 14 8 24 13 32 14" style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; fill: none;"/>
+  <path d="M 10 114 C 14 120 24 125 32 126" style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; fill: none;"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;" x1="10" y1="114" x2="10" y2="2"/>
+  <path d="M 96 2 L 10 2" style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 106.5 8 L 16.5 8" style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path style="stroke: rgb(0, 98, 184); fill: none; stroke-linejoin: round; stroke-width: 41.9072px;" transform="matrix(0, -0.102656, 0.102656, 0, 34.279752, 163.521123)" d="M 648 84.946 A 311.721 311.721 0 1 1 648 708.388 L 648 396.667 Z" bx:shape="pie 648 396.667 0 311.721 0 180 1@2dbd585a"/>
+  <circle style="stroke: rgb(0, 98, 184); stroke-width: 4px; fill: none;" cx="74.563" cy="46" r="13"/>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect x="96" y="41" width="24" height="46" style="stroke-linejoin: bevel; fill: none; stroke-width: 16px;"/>
+  <path d="M 96 95 L 88 87 L 88 41 L 96 33 L 120 33 L 128 41 L 128 56 L 112 56 L 112 49 L 104 49 L 104 79 L 112 79 L 112 72 L 128 72 L 128 87 L 120 95 Z" style="fill: rgb(0, 98, 184);"/>
+  <path d="M 52 95 L 44 87 L 44 41 L 52 33 L 76 33 L 84 41 L 84 87 L 76 95 Z M 60 79 L 68 79 L 68 49 L 60 49 Z" style="fill: rgb(0, 98, 184);"/>
+  <path d="M 0 33 L 32 33 L 40 41 L 40 62.125 L 33 70 L 36 79 L 40 79 L 40 95 L 24 95 L 18 76 L 16 76 L 16 95 L 0 95 Z M 24 49 L 16 49 L 16 60 L 24 60 Z" style="fill: rgb(0, 98, 184);"/>
+</svg>

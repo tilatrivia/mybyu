@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path style="stroke: rgb(0, 98, 184); stroke-width: 20.111px; fill: none; stroke-linejoin: round;" transform="matrix(0, -0.198896, 0.198896, 0, -14.89542, 254.884682)" d="M 648 84.946 A 311.721 311.721 0 1 1 648 708.388 L 648 396.667 Z" bx:shape="pie 648 396.667 0 311.721 0 180 1@2dbd585a"/>
+  <circle style="stroke: rgb(0, 98, 184); stroke-width: 4px; fill: none;" cx="64" cy="30" r="28"/>
+  <path d="M 48 77 L 62.933 77 L 62.933 85.533 L 60.222 85.533 L 63.997 92.07 L 67.771 85.533 L 65.066 85.533 L 65.066 77 L 80 77 L 80 85.533 L 77.009 85.533 L 68.266 100.676 L 68.266 107.4 L 71.467 107.4 L 71.467 115.934 L 56.533 115.934 L 56.533 107.4 L 59.733 107.4 L 59.733 100.685 L 50.986 85.533 L 48 85.533 Z" style="fill: rgb(0, 98, 184);"/>
+</svg>

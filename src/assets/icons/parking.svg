@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px; fill: none;" d="M 18 54 H 110 A 16 16 0 0 1 126 70 V 94 H 2 V 70 A 16 16 0 0 1 18 54 Z" bx:shape="rect 2 54 124 40 16 16 0 0 1@ffbe407e"/>
+  <path style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px; fill: none;" d="M 32 14 H 96 A 16 16 0 0 1 112 30 V 54 H 16 V 30 A 16 16 0 0 1 32 14 Z" bx:shape="rect 16 14 96 40 16 16 0 0 1@dffc8a48"/>
+  <rect style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px; fill: none;" x="8" y="94" width="10" height="20"/>
+  <rect style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px; fill: none;" x="110" y="94" width="10" height="20"/>
+  <circle style="stroke: rgb(0, 98, 184); stroke-width: 4px; fill: none;" cx="18" cy="70" r="8"/>
+  <circle style="stroke: rgb(0, 98, 184); stroke-width: 4px; fill: none;" cx="110" cy="70" r="8"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="36" y1="74" x2="92" y2="74"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="36" y1="84" x2="92" y2="84"/>
+</svg>

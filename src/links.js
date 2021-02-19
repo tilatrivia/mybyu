@@ -1,7 +1,7 @@
 export default [
     {
         id: "account-management",
-        icon: "learning-suite.svg",
+        icon: "account-management.svg",
         name: "Account Management",
         address: "https://accounts.byu.edu/link-account",
         heading: "University Account",
@@ -25,7 +25,7 @@ export default [
     },
     {
         id: "book-list",
-        icon: "learning-suite.svg",
+        icon: "book-list.svg",
         name: "Book List",
         address: "https://y.byu.edu/ry/ae/prod/acad_plan/cgi/stdGraduationApp.cgi",
         heading: "My Classes",
@@ -33,7 +33,7 @@ export default [
     },
     {
         id: "byusa",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "BYUSA",
         address: "https://byusa.byu.edu",
         heading: "Student Life",
@@ -41,7 +41,7 @@ export default [
     },
     {
         id: "byu-speeches",
-        icon: "learning-suite.svg",
+        icon: "byu-speeches.svg",
         name: "BYU Speeches",
         address: "https://speeches.byu.edu",
         heading: "Campus Resources",
@@ -49,7 +49,7 @@ export default [
     },
     {
         id: "calendars",
-        icon: "learning-suite.svg",
+        icon: "calendars.svg",
         name: "Calendars",
         address: "https://calendar.byu.edu",
         heading: "Student Life",
@@ -57,7 +57,7 @@ export default [
     },
     {
         id: "campus-directory",
-        icon: "learning-suite.svg",
+        icon: "campus-directory.svg",
         name: "Campus Directory",
         address: "https://lambda.byu.edu/ae/prod/person/cgi/personLookup.cgi",
         heading: "Student Life",
@@ -65,7 +65,7 @@ export default [
     },
     {
         id: "campus-map",
-        icon: "learning-suite.svg",
+        icon: "campus-map.svg",
         name: "Campus Map",
         address: "https://map.byu.edu",
         heading: "Student Life",
@@ -73,7 +73,7 @@ export default [
     },
     {
         id: "campus-shuttle",
-        icon: "learning-suite.svg",
+        icon: "campus-shuttle.svg",
         name: "Campus Shuttle",
         address: "https://studentmovement.com/map/routesschedules",
         heading: "Student Life",
@@ -89,7 +89,7 @@ export default [
     },
     {
         id: "career-center",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Career Center",
         address: "https://careers.byu.edu/",
         heading: "Campus Resources",
@@ -97,7 +97,7 @@ export default [
     },
     {
         id: "class-schedule",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Class Schedule",
         address: "https://saasta.byu.edu/noauth/classSchedule/index.php",
         heading: "My Classes",
@@ -113,7 +113,7 @@ export default [
     },
     {
         id: "counseling-services",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Counseling Services",
         address: "https://caps.byu.edu/",
         heading: "Campus Resources",
@@ -121,7 +121,7 @@ export default [
     },
     {
         id: "course-catalog",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Course Catalog",
         address: "https://catalog.byu.edu/",
         heading: "My Classes",
@@ -129,7 +129,7 @@ export default [
     },
     {
         id: "dinning-account",
-        icon: "learning-suite.svg",
+        icon: "dinning-account.svg",
         name: "Dinning Account",
         address: "https://housing.byu.edu/secure/services/dining/default.aspx",
         heading: "Student Life",
@@ -137,7 +137,7 @@ export default [
     },
     {
         id: "dinning-services",
-        icon: "learning-suite.svg",
+        icon: "dinning-services.svg",
         name: "Dinning Services",
         address: "https://dining.byu.edu/",
         heading: "Student Life",
@@ -145,7 +145,7 @@ export default [
     },
     {
         id: "direct-deposit",
-        icon: "learning-suite.svg",
+        icon: "direct-deposit.svg",
         name: "Direct Deposit",
         address: "https://sa.byu.edu/psc/ps/EMPLOYEE/SA/c/Y_MY_FINANCIAL_CENTER.Y_DDEP_OVERVW2_FL.GBL?Page=Y_DDEP_OVERVW2_FL&EMPLID=191786212",
         heading: "Employment",
@@ -153,7 +153,7 @@ export default [
     },
     {
         id: "ecclesiastical-endorsement",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Eccl. Endorsement",
         address: "https://endorse.byu.edu",
         heading: "Academics",
@@ -161,7 +161,7 @@ export default [
     },
     {
         id: "enrollment-services",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Enrollment Services",
         address: "https://enrollment.byu.edu/",
         heading: "Academics",
@@ -169,15 +169,23 @@ export default [
     },
     {
         id: "finals-schedule",
-        icon: "learning-suite.svg",
+        icon: "finals-schedule.svg",
         name: "Finals Schedule",
         address: "https://y.byu.edu/ry/ae/prod/class_schedule/cgi/examStudentSchedule.cgi",
         heading: "My Classes",
         tags: "testing"
     },
     {
+        id: "financial-center",
+        icon: "financial-center.svg",
+        name: "Financial Center",
+        address: "http://link.byu.edu/mfc",
+        heading: "Academics",
+        tags: "tuition payment account balance money charges"
+    },
+    {
         id: "get-software",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Get Software",
         address: "http://software.byu.edu/",
         heading: "Technology",
@@ -185,7 +193,7 @@ export default [
     },
     {
         id: "guest-access",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Guest Access",
         address: "https://guestaccess.byu.edu/",
         heading: "University Account",
@@ -193,7 +201,7 @@ export default [
     },
     {
         id: "intramurals",
-        icon: "learning-suite.svg",
+        icon: "intramurals.svg",
         name: "Intramurals",
         address: "https://intramurals.byu.edu/",
         heading: "Student Life",
@@ -201,7 +209,7 @@ export default [
     },
     {
         id: "lab-computers",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Lab Computers",
         address: "https://lib.byu.edu/services/public-computers/",
         heading: "Technology",
@@ -209,7 +217,7 @@ export default [
     },
     {
         id: "learn-anywhere",
-        icon: "learning-suite.svg",
+        icon: "teach-anywhere.svg",
         name: "Learn Anywhere",
         address: "https://learnanywhere.byu.edu/",
         heading: "Academics",
@@ -225,19 +233,11 @@ export default [
     },
     {
         id: "library",
-        icon: "learning-suite.svg",
+        icon: "library.svg",
         name: "Library",
         address: "https://lib.byu.edu/",
         heading: "Academics",
         tags: "research books computers writing collections databases catalog study"
-    },
-    {
-        id: "financial-center",
-        icon: "learning-suite.svg",
-        name: "Financial Center",
-        address: "http://link.byu.edu/mfc",
-        heading: "Academics",
-        tags: "tuition payment account balance money charges"
     },
     {
         id: "mymap",
@@ -249,7 +249,7 @@ export default [
     },
     {
         id: "off-campus-housing",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Off-campus Housing",
         address: "https://och.byu.edu/",
         heading: "Student Life",
@@ -257,7 +257,7 @@ export default [
     },
     {
         id: "oit",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Office of IT",
         address: "https://oit.byu.edu",
         heading: "Technology",
@@ -265,7 +265,7 @@ export default [
     },
     {
         id: "on-campus-housing",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "On-campus Housing",
         address: "https://www.byu.edu/oncampushousing/",
         heading: "Student Life",
@@ -273,7 +273,7 @@ export default [
     },
     {
         id: "parking",
-        icon: "learning-suite.svg",
+        icon: "parking.svg",
         name: "Parking",
         address: "https://police.byu.edu/parking",
         heading: "Student Life",
@@ -281,7 +281,7 @@ export default [
     },
     {
         id: "personal-information",
-        icon: "learning-suite.svg",
+        icon: "personal-information.svg",
         name: "Personal Information",
         address: "https://gamma.byu.edu/ry/ae/prod/person/cgi/personSummary.cgi",
         heading: "University Account",
@@ -289,7 +289,7 @@ export default [
     },
     {
         id: "plan-courses",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Plan Courses",
         address: "https://y.byu.edu/ry/ae/prod/mymap/cgi/plan.cgi",
         heading: "My Classes",
@@ -297,7 +297,7 @@ export default [
     },
     {
         id: "printers",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Printers",
         address: "https://lib.byu.edu/services/printers/",
         heading: "Technology",
@@ -305,7 +305,7 @@ export default [
     },
     {
         id: "register-for-classes",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Register for Classes",
         address: "https://y.byu.edu/ry/ae/prod/mymap/cgi/register.cgi",
         heading: "My Classes",
@@ -313,7 +313,7 @@ export default [
     },
     {
         id: "roc-pass",
-        icon: "learning-suite.svg",
+        icon: "roc.svg",
         name: "ROC Pass",
         address: "https://tickets.byu.edu/roc-pass",
         heading: "Student Life",
@@ -321,7 +321,7 @@ export default [
     },
     {
         id: "scholarship-application",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Scholarship Appl.",
         address: "https://sa.byu.edu/psp/ps/EMPLOYEE/HRMS/c/Y_SLR_STUDENT.Y_SLR_STU_APP_LAND.GBL",
         heading: "Academics",
@@ -329,7 +329,7 @@ export default [
     },
     {
         id: "scholarships",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Scholarships",
         address: "https://sa.byu.edu/psc/ps/EMPLOYEE/SA/c/Y_MY_FINANCIAL_CENTER.Y_SLR_STU_ACT_FL.GBL",
         heading: "Academics",
@@ -337,7 +337,7 @@ export default [
     },
     {
         id: "student-employment",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "Student Employment",
         address: "https://hrs.byu.edu/student-employment",
         heading: "Technology",
@@ -345,7 +345,7 @@ export default [
     },
     {
         id: "student-health",
-        icon: "learning-suite.svg",
+        icon: "student-health.svg",
         name: "Student Health",
         address: "https://health.byu.edu/",
         heading: "Student Life",
@@ -353,7 +353,7 @@ export default [
     },
     {
         id: "teach-anywhere",
-        icon: "learning-suite.svg",
+        icon: "teach-anywhere.svg",
         name: "Teach Anywhere",
         address: "https://teachanywhere.byu.edu/",
         heading: "Academics",
@@ -361,7 +361,7 @@ export default [
     },
     {
         id: "testing-center",
-        icon: "learning-suite.svg",
+        icon: "testing-center.svg",
         name: "Testing Center",
         address: "https://testing.byu.edu/",
         heading: "My Classes",
@@ -369,7 +369,7 @@ export default [
     },
     {
         id: "university-policies",
-        icon: "learning-suite.svg",
+        icon: "default.svg",
         name: "University Policies",
         address: "http://policy.byu.edu/",
         heading: "Campus Resources",

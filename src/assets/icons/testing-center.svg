@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 2 126 L 2 104 L 104 2 C 112 2 126 16 126 24 L 24 126 L 2 126 Z" style="stroke: rgb(0, 98, 184); fill: none; stroke-width: 4px; stroke-linejoin: round;"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px;" x1="11" y1="108" x2="100" y2="19"/>
+  <path d="M 91 15 C 101 15 113 29 113 37" style="fill: none; stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;"/>
+  <path d="M 2 104 C 12 104 24 118 24 126" style="fill: none; stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; fill: rgb(0, 98, 184);" x1="20" y1="116" x2="109" y2="27"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="16" y1="126" x2="112" y2="126"/>
+  <circle style="fill: rgb(0, 98, 184);" cx="4" cy="124" r="4"/>
+</svg>

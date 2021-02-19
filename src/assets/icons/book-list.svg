@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect x="32" y="14" width="86" height="112" style="fill: none; stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-width: 4px;"/>
+  <path d="M 10 2 C 14 8 24 13 32 14" style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; fill: none;"/>
+  <path d="M 10 114 C 14 120 24 125 32 126" style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; fill: none;"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;" x1="10" y1="114" x2="10" y2="2"/>
+  <path d="M 96 2 L 10 2" style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 106.5 8 L 16.5 8" style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 105 53 L 45 53" style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 99 61 L 51 61" style="stroke: rgb(0, 98, 184); stroke-linecap: round; stroke-width: 4px; stroke-linejoin: round;"/>
+  <path d="M 15.466 31.931 C 17.588 33.948 21.763 36.23 24.88 37.066" style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; fill: none;"/>
+</svg>

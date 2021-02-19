@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect y="52" width="124" height="48" style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; fill: none;" x="2"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="2" y1="52" x2="64" y2="28"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px; stroke-linecap: round;" x1="126" y1="52" x2="64" y2="28"/>
+  <rect y="72" width="60" height="28" style="stroke: rgb(0, 98, 184); stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; fill: none;" x="34"/>
+  <line style="stroke: rgb(0, 98, 184); stroke-width: 4px;" x1="94" y1="80" x2="34" y2="80"/>
+</svg>

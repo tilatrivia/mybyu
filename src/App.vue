@@ -118,8 +118,9 @@
     </div>
     <div id="footer">
       <p class="logo">TRUMAN KAUTZMAN</p>
+      <p>This is not an official BYU website, only a prototype</p>
       <p>This project's source is found in this <a href="https://github.com/tilatrivia/mybyu">repository</a></p>
-      <p>To request new links, features, or other changes please let me know <a href="https://github.com/tilatrivia/mybyu/issues/new">here</a></p>
+      <p>Please request new links, additional features, or other changes <a href="https://github.com/tilatrivia/mybyu/issues/new">here</a></p>
     </div>
   </div>
 </template>

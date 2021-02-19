@@ -20,7 +20,8 @@
             <button @click="searchTerm = ''" v-if="searchTerm"><img src="./assets/x.svg"/></button>
           </div>
           <div class="search-results">
-            <PinLink v-for="link_id in searchResults" v-bind:key="link_id"/>
+            <PinLink v-for="link_id in searchResults" v-bind:key="link_id" :search="searchTerm"/>
+            <p v-if="searchTerm && searchResults.length === 0">No links found for "{{ searchTerm }}"</p>
           </div>
         </div>
       </div>
@@ -116,7 +117,9 @@
       </div>
     </div>
     <div id="footer">
-      <p>BRIGHAM YOUNG UNIVERSITY</p>
+      <p class="logo">TRUMAN KAUTZMAN</p>
+      <p>This project's source is found in this <a href="https://github.com/tilatrivia/mybyu">repository</a></p>
+      <p>To request new links, features, or other changes please let me know <a href="https://github.com/tilatrivia/mybyu/issues/new">here</a></p>
     </div>
   </div>
 </template>
@@ -164,9 +167,11 @@ export default {
       if (this.searchTerm) {
         let searchTermLower = this.searchTerm.toLowerCase();
         this.$root.$data.links.forEach((link) => {
-          if (link.name.toLowerCase().includes(searchTermLower) ||
-            link.heading.toLowerCase().includes(searchTermLower) ||
-            link.tags.includes(searchTermLower))
+          if (link.name.toLowerCase().includes(searchTermLower))
+            results.push(link.id);
+        }, this);
+        this.$root.$data.links.forEach((link) => {
+          if (!link.name.toLowerCase().includes(searchTermLower) && (link.heading.toLowerCase().includes(searchTermLower) || link.tags.includes(searchTermLower)))
             results.push(link.id);
         }, this);
       }
@@ -194,9 +199,22 @@ body {
   background-color: #fafafa;
 }
 
+p, a {
+  font-family: 'Public Sans', sans-serif;
+  text-decoration: none;
+}
+
+a {
+  color: #0062b8;
+}
+
+a:hover {
+  color: #66b0f1;
+}
+
 #header {
   background-color: #002E5D;
-  padding: 30px 10px;
+  padding: 30px;
 
   display: flex;
   flex-direction: row;
@@ -268,9 +286,12 @@ hr {
   margin: 0;
   height: 0;
   border: none;
-  border-top: 1px solid #bbbbbb;
+  border-top: 1px solid #888888;
 }
 
+
+
+/* Pinned Links */
 #pinned-links {
   grid-column: 1;
 }
@@ -283,6 +304,9 @@ hr {
   opacity: 0.3;
 }
 
+
+
+/* Search Box */
 #search {
   grid-column: 2 / 4;
   grid-row: span 3;
@@ -341,7 +365,6 @@ hr {
   background-color: #eeeeee;
 }
 
-
 .search-results {
   position: absolute;
   max-height: 285px;
@@ -355,10 +378,18 @@ hr {
   scrollbar-width: none;  /* Firefox */
 }
 
+.search-results > p {
+  margin: 5px;
+  line-height: 40px;
+}
+
 .search-box > div::-webkit-scrollbar {
   display: none; /* Chrome, Safari and Opera */
 }
 
+
+
+/* Catagory Grid */
 #my-classes {
   grid-column: 1;
   grid-row: span 12;
@@ -447,12 +478,20 @@ hr {
   }
 }
 
+
+
+/* Footer */
 #footer {
   background-color: #002E5D;
   padding: 20px;
 }
 
 #footer p {
+  color: #ffffff;
+  text-align: center;
+}
+
+#footer .logo {
   margin: 0;
   font-family: 'HCo Ringside Narrow SSm', sans-serif;
   font-size: 14pt;

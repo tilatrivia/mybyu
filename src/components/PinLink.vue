@@ -3,7 +3,7 @@
         <a class="link-button" :href="pinLink.address" :title="pinLink.name" target="_blank">
             <!-- <img class="link-icon" :src="'../assets/icons/' + link_id + '.svg'"/> -->
             <img class="link-icon" :src="require('../assets/icons/' + pinLink.icon)"/>
-            <p class="link-name">{{ pinLink.name }}</p>
+            <p class="link-name" v-html="title"></p>
         </a>
         <a v-if="!pinned" class="pin-button" @click="pin()" :title="'Pin ' + pinLink.name">
             <img class="pin-icon" src="../assets/pin-open-angled.svg"/>
@@ -21,6 +21,7 @@ export default {
     name: 'PinLink',
     props: {
         link_id: String,
+        search: String
     },
     data() {
         return {
@@ -31,6 +32,27 @@ export default {
     computed: {
         pinned() {
             return this.$parent.pinned.indexOf(this.$vnode.key) !== -1;
+        },
+        title() {
+            let name = this.pinLink.name.toLowerCase();
+
+            if (!this.search) {
+                return this.pinLink.name;
+            }
+            let search = this.search.toLowerCase();
+
+            let startIndex = name.indexOf(search);
+            if (startIndex === -1) {
+                return this.pinLink.name;
+            }
+            let endIndex = startIndex + search.length;
+            let html = this.pinLink.name.substring(0, startIndex)
+                + '<b>'
+                + this.pinLink.name.substring(startIndex, endIndex)
+                + '</b>'
+                + this.pinLink.name.substring(endIndex);
+
+            return html;
         }
     },
     methods: {
@@ -92,12 +114,16 @@ a:link, a:visited {
     flex: 1 0;
 
     color: black;
-    font-family: 'HCo Ringside Narrow SSm', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     font-weight: 500;
     font-size: 14pt;
     line-height: 50px;
 
     overflow: hidden;
+}
+
+.link-name b {
+    font-weight: 900;
 }
 
 .pin-button {

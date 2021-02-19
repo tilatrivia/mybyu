@@ -122,10 +122,6 @@ a:link, a:visited {
     overflow: hidden;
 }
 
-.link-name b {
-    font-weight: 900;
-}
-
 .pin-button {
     width: 50px;
     height: 50px;

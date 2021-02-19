@@ -77,8 +77,8 @@
         <PinLink key="parking"/>
         <hr>
         <PinLink key="cougar-cash"/>
-        <PinLink key="dinning-services"/>
-        <PinLink key="dinning-account"/>
+        <PinLink key="dining-services"/>
+        <PinLink key="dining-account"/>
         <hr>
         <PinLink key="student-health"/>
         <hr>

@@ -1,4 +1,4 @@
-export default class PinLink {
+export default class LinkData {
     constructor(name, address, icon, heading, tags) {
         this.name = name;
         this.address = address;

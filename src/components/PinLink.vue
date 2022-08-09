@@ -1,70 +1,57 @@
 <template>
     <div class="link" ref="container">
-        <a class="link-button" :href="pinLink.address" :title="pinLink.name" target="_blank">
+        <a class="link-button" :href="linkData.address" :title="linkData.name" target="_blank">
             <!-- <img class="link-icon" :src="'../assets/icons/' + link_id + '.svg'"/> -->
-            <img class="link-icon" :src="require('../assets/icons/' + pinLink.icon)"/>
+            <img class="link-icon" :src="require('../assets/icons/' + linkData.icon)"/>
             <p class="link-name" v-html="title"></p>
         </a>
-        <a v-if="!pinned" class="pin-button" @click="pin()" :title="'Pin ' + pinLink.name">
+        <a v-if="!pinned" class="pin-button" @click="$emit('onPin')" :title="'Pin ' + linkData.name">
             <img class="pin-icon" src="../assets/pin-open-angled.svg"/>
         </a>
-        <a v-else class="pin-button" @click="unpin()" :title="'Unpin ' + pinLink.name">
+        <a v-else class="pin-button" @click="$emit('onUnpin')" :title="'Unpin ' + linkData.name">
             <img class="pin-icon" src="../assets/pin-closed-vertical.svg"/>
         </a>
     </div>
 </template>
 
 <script>
-import PinLink from '../pin-link.js'
+import LinkData from '../linkData';
 
 export default {
     name: 'PinLink',
     props: {
-        link_id: String,
-        search: String
+        linkData: LinkData,
+        pinned: Boolean,
+        search: String,
     },
     data() {
         return {
-            pinLink: PinLink,
             large: false
         }
     },
+    emits: ['onPin', 'onUnpin'],
     computed: {
-        pinned() {
-            return this.$parent.pinned.indexOf(this.$vnode.key) !== -1;
-        },
         title() {
-            let name = this.pinLink.name.toLowerCase();
+            let name = this.linkData.name.toLowerCase();
 
             if (!this.search) {
-                return this.pinLink.name;
+                return this.linkData.name;
             }
             let search = this.search.toLowerCase();
 
             let startIndex = name.indexOf(search);
             if (startIndex === -1) {
-                return this.pinLink.name;
+                return this.linkData.name;
             }
             let endIndex = startIndex + search.length;
-            let html = this.pinLink.name.substring(0, startIndex)
+            let html = this.linkData.name.substring(0, startIndex)
                 + '<b>'
-                + this.pinLink.name.substring(startIndex, endIndex)
+                + this.linkData.name.substring(startIndex, endIndex)
                 + '</b>'
-                + this.pinLink.name.substring(endIndex);
+                + this.linkData.name.substring(endIndex);
 
             return html;
         }
-    },
-    methods: {
-        pin() {
-            this.$parent.pinItem(this.$vnode.key)
-        },
-        unpin() {
-            this.$parent.unpinItem(this.$vnode.key)
-        }
-    },
-    created() {
-        this.pinLink = this.$root.$data.linkMap[this.$vnode.key];
     },
     mounted() {
         this.large = this.$refs.container.clientWidth > 500;

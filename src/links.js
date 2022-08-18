@@ -3,7 +3,7 @@ export default [
         id: "account-management",
         icon: "account-management.svg",
         name: "Account Management",
-        address: "https://accounts.byu.edu/link-account",
+        address: "https://myaccount.byu.edu/",
         heading: "University Account",
         tags: "settings"
     },
@@ -27,7 +27,7 @@ export default [
         id: "book-list",
         icon: "book-list.svg",
         name: "Book List",
-        address: "https://y.byu.edu/ry/ae/prod/acad_plan/cgi/stdGraduationApp.cgi",
+        address: "https://booklist.byu.edu/Home/Mybooklist",
         heading: "My Classes",
         tags: "textbooks bookstore"
     },
@@ -55,7 +55,7 @@ export default [
         heading: "Student Life",
         tags: "devotionals forums events arts athletics sports"
     },
-    {
+    {   // Deprecated
         id: "campus-directory",
         icon: "campus-directory.svg",
         name: "Campus Directory",
@@ -75,7 +75,7 @@ export default [
         id: "campus-shuttle",
         icon: "campus-shuttle.svg",
         name: "Campus Shuttle",
-        address: "https://studentmovement.com/map/routesschedules",
+        address: "https://studentmovement.byu.edu/",
         heading: "Student Life",
         tags: "times transportation busses the ryde"
     },
@@ -99,7 +99,7 @@ export default [
         id: "class-schedule",
         icon: "default.svg",
         name: "Class Schedule",
-        address: "https://saasta.byu.edu/noauth/classSchedule/index.php",
+        address: "https://commtech.byu.edu/noauth/classSchedule/index.php",
         heading: "My Classes",
         tags: "classes calendar time registration"
     },
@@ -107,7 +107,7 @@ export default [
         id: "cougar-cash",
         icon: "cougar-cash.svg",
         name: "Cougar Cash",
-        address: "https://sa.byu.edu/psc/ps/EMPLOYEE/HRMS/c/Y_MY_FINANCIAL_CENTER.Y_SIG_HOME_FL.GBL?Page=Y_SIG_HOME_FL&EMPLID=191786212",
+        address: "https://sa.byu.edu/psc/ps/EMPLOYEE/HRMS/c/Y_MY_FINANCIAL_CENTER.Y_SIG_HOME_FL.GBL?Page=Y_SIG_HOME_FL",
         heading: "Student Life",
         tags: "classes instructure assignments"
     },
@@ -166,6 +166,14 @@ export default [
         address: "https://enrollment.byu.edu/",
         heading: "Academics",
         tags: "registration dates policies schedule class cart"
+    },
+    {
+        id: "employee-directory",
+        icon: "campus-directory.svg",
+        name: "Employee Directory",
+        address: "https://lambda.byu.edu/ae/prod/person/cgi/personLookup.cgi",
+        heading: "Campus Resources",
+        tags: "people faculty staff"
     },
     {
         id: "finals-schedule",
@@ -267,7 +275,7 @@ export default [
         id: "on-campus-housing",
         icon: "default.svg",
         name: "On-campus Housing",
-        address: "https://www.byu.edu/oncampushousing/",
+        address: "https://housing.byu.edu/",
         heading: "Student Life",
         tags: "dorms helaman halls heritage halls wyview park wymount terrace flsr"
     },
@@ -275,7 +283,7 @@ export default [
         id: "parking",
         icon: "parking.svg",
         name: "Parking",
-        address: "https://police.byu.edu/parking",
+        address: "https://security.byu.edu/parking-services",
         heading: "Student Life",
         tags: "parking pass vehicle registration parking map"
     },
@@ -287,7 +295,7 @@ export default [
         heading: "University Account",
         tags: "name email phone number privacy"
     },
-    {
+    {   // Deprecated
         id: "plan-courses",
         icon: "default.svg",
         name: "Plan Courses",
@@ -304,6 +312,14 @@ export default [
         tags: "copy copier color black and white scanner"
     },
     {
+        id: "progress-report",
+        icon: "default.svg",
+        name: "Progress Report",
+        address: "https://advise.sim.byu.edu/",
+        heading: "My Classes",
+        tags: "degree program requirements classes"
+    },
+    {
         id: "register-for-classes",
         icon: "default.svg",
         name: "Register for Classes",
@@ -315,7 +331,7 @@ export default [
         id: "roc-pass",
         icon: "roc.svg",
         name: "ROC Pass",
-        address: "https://tickets.byu.edu/roc-pass",
+        address: "https://tickets.byu.edu/roc",
         heading: "Student Life",
         tags: "sports athletics student tickets student section football basketball soccer"
     },

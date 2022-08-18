@@ -33,8 +33,8 @@
                 <p>MY CLASSES</p>
                 <PinLink :linkData="linkMap.get('mymap')" :pinned="pinned.includes('mymap')" @onPin="pinItem('mymap')"
                     @onUnpin="unpinItem('mymap')" />
-                <PinLink :linkData="linkMap.get('plan-courses')" :pinned="pinned.includes('plan-courses')"
-                    @onPin="pinItem('plan-courses')" @onUnpin="unpinItem('mymap')" />
+                <PinLink :linkData="linkMap.get('progress-report')" :pinned="pinned.includes('progress-report')"
+                    @onPin="pinItem('progress-report')" @onUnpin="unpinItem('progress-report')" />
                 <PinLink :linkData="linkMap.get('course-catalog')" :pinned="pinned.includes('course-catalog')"
                     @onPin="pinItem('course-catalog')" @onUnpin="unpinItem('course-catalog')" />
                 <PinLink :linkData="linkMap.get('class-schedule')" :pinned="pinned.includes('class-schedule')"
@@ -131,8 +131,8 @@
 
             <div id="campus-resources" class="box">
                 <p>CAMPUS RESOURCES</p>
-                <PinLink :linkData="linkMap.get('campus-directory')" :pinned="pinned.includes('campus-directory')"
-                    @onPin="pinItem('campus-directory')" @onUnpin="unpinItem('campus-directory')" />
+                <PinLink :linkData="linkMap.get('employee-directory')" :pinned="pinned.includes('employee-directory')"
+                    @onPin="pinItem('employee-directory')" @onUnpin="unpinItem('employee-directory')" />
                 <PinLink :linkData="linkMap.get('campus-map')" :pinned="pinned.includes('campus-map')"
                     @onPin="pinItem('campus-map')" @onUnpin="unpinItem('campus-map')" />
                 <hr>

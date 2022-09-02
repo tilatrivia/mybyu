@@ -1,14 +1,14 @@
 <template>
     <div class="link" ref="container">
-        <a class="link-button" :href="linkData.address" :title="linkData.name" target="_blank">
+        <a class="link-button" @click="toLink" :href="linkData.address" :title="linkData.name" target="_blank">
             <!-- <img class="link-icon" :src="'../assets/icons/' + link_id + '.svg'"/> -->
             <img class="link-icon" :src="require('../assets/icons/' + linkData.icon)"/>
             <p class="link-name" v-html="title"></p>
         </a>
-        <a v-if="!pinned" class="pin-button" @click="$emit('onPin')" :title="'Pin ' + linkData.name">
+        <a v-if="!pinned" class="pin-button" @click="pin" :title="'Pin ' + linkData.name">
             <img class="pin-icon" src="../assets/pin-open-angled.svg"/>
         </a>
-        <a v-else class="pin-button" @click="$emit('onUnpin')" :title="'Unpin ' + linkData.name">
+        <a v-else class="pin-button" @click="unpin" :title="'Unpin ' + linkData.name">
             <img class="pin-icon" src="../assets/pin-closed-vertical.svg"/>
         </a>
     </div>
@@ -16,6 +16,7 @@
 
 <script>
 import LinkData from '../linkData';
+import { event } from 'vue-gtag'
 
 export default {
     name: 'PinLink',
@@ -51,6 +52,19 @@ export default {
                 + this.linkData.name.substring(endIndex);
 
             return html;
+        }
+    },
+    methods: {
+        toLink() {
+            event('toLink', { value: this.linkData.name});
+        },
+        pin() {
+            event('pin', { value: this.linkData.name});
+            this.$emit('onPin', this.linkData.name);
+        },
+        unpin() {
+            event('unpin', { value: this.linkData.name});
+            this.$emit('onUnpin', this.linkData.name);
         }
     },
     mounted() {
